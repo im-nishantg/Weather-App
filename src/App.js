@@ -26,7 +26,7 @@ function App() {
 
     newMainData = {
       temp: data.main.temp,
-      imgurl: "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png",
+      imgurl: "https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png",
       desc: data.weather[0].description
     }
 
