@@ -10,7 +10,7 @@ export default function Main(props)
         <div className="main">
 
             <h1> <LocationOnIcon fontSize='medium' /> {city(props.cityName)} </h1>
-            <img src={props.data.imgurl} width="150px" className="imgdiv" alt='weather-image'></img>
+            <img src={props.data.imgurl} width="150px" className="imgdiv" alt='weather'></img>
             <span> {props.data.desc} </span>
             <h1> {props.data.temp}&#176;C</h1>
         </div>
