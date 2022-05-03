@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import SearchIcon from '@mui/icons-material/Search';
 
-export default function(props){
+export default function Header(props){
 
     let [city, setCity] = useState("");
 
